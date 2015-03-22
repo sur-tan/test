@@ -1,6 +1,6 @@
-# CODE BOOK ON THE ANALYSIS PERFORMED ON EXPERIMENT DATA For ACTIVITIES PERFORMED WEARING A SMARTPHONE (SAMSUNG GALAXY S II)
+## CODE BOOK ON THE ANALYSIS OF THE DATA COLLECTED FOR THE ACTIVITIES PERFORMED WEARING A SMARTPHONE
 
-The purpose of this analysis is to extracts mean and standard deviation of each measurement and produces an average of each measurement for each activity and each subject. The analysis is done on the experimeriment data for the activities performed wearing a smartphone (Samsung Galaxy S II).
+The purpose of this analysis is to extract mean and standard deviation of each measurement and produces an average of each measurement for each activity and each subject. The analysis is done on the experiment data for the activities performed wearing a smartphone (Samsung Galaxy S II).
 
 
 ### RAW DATA 
@@ -11,65 +11,71 @@ This data came from the experiments carried out by 30 volunteers (subjects), per
 
 For more details on how the data are collected, refer to the readme file in dataset.
 
+The following raw data are being used to perform the analysis:
+
+* \UCI HAR Dataset\test\**X_test.txt** : This is the measurement of the test dataset
+
+* \UCI HAR Dataset\test\**Y_test.txt** : This is the activities of the test dataset
+
+* \UCI HAR Dataset\test\**subject_test.txt** : This is the subject that performs the activities of the test dataset
+
+* \UCI HAR Dataset\train\**X_train.txt** : This is the measurement of the training datasets
+
+* \UCI HAR Dataset\train\**Y_train.txt** : This is the activities of the training dataset
+
+* \UCI HAR Dataset\train\**X_test.txt** : This is the subject that performs the activities of the training dataset
+      
+* \UCI HAR Dataset\**activity_labels.txt** | This is the description of each activity code
+
+* \UCI HAR Dataset\**features.txt**  | This is the description of each data in the X_test.txt and X_train.txt
+
 ### TIDY DATA
-The tidy data is produced through the run_analysis.R script. Refer to the CodeBook section below on the explanation of the variables. 
+The tidy data is produced through the run_analysis.R script. Refer to the CodeBook section below on the explanation of the variables of the tidy data. 
 
 
 ### TRANSFORMATION
 
 The tidy data are transformed through the following processed:
 
-1. Read the datasets. Note that the datasets are downloaded and unzipped in the subfolder 'UCI HAR Dataset' where the script is stored. The directory stucture of the datasets are kept as the original after unzipped. 
-
-2. The following datasets are read:
-
-      Datasets  | Description
-      ----------------------------------------------------------------------------------------------------------------
-      \UCI HAR Dataset\test\X_test.txt | This is the measurement of the test dataset
-      \UCI HAR Dataset\test\Y_test.txt | This is the activities of the test dataset
-      \UCI HAR Dataset\test\subject_test.txt | This is the subject that performs the activities of the test dataset
+1. Read the datasets as specified in the Raw Data section. Take note that the datasets are downloaded and unzipped in the subfolder 'UCI HAR Dataset' where the script is stored. The directory stucture of the datasets are kept as the original after unzipped. 
       
-      \UCI HAR Dataset\train\X_train.txt | This is the measurement of the training datasets
-      \UCI HAR Dataset\train\Y_train.txt | This is the activities of the training dataset
-      \UCI HAR Dataset\train\X_test.txt  | This is the subject that performs the activities of the training dataset
-      
-      \UCI HAR Dataset\activity_labels.txt | This is the description of each activity code
-      \UCI HAR Dataset\features.txt  | This is the description of each data in the X_test.txt and X_train.txt
-      
-3. Merge the measurement of the training data and the test datasets, the activities of both datasets and the subjects of the datasets
+2. Merge the measurement of the training data and the test datasets, the activities of both datasets and the subjects of the datasets
 
-4. Assign the variable names for the each measurement extracted from the features.txt file
+3. Assign the variable names for the each measurement extracted from the features.txt file
 
-5. Combine the subject, activiy and the measurements into one dataset
+4. Combine the subject, activiy and the measurements into one dataset
 
-6. Extracts only the measurements on the mean and standard deviation for each measurement, that is the measurements with variable names contain the word 'mean()' and 'std()'
+5. Extracts only the measurements on the mean and standard deviation for each measurement, that is the measurements with variable names contain the word 'mean()' and 'std()'
 
-7. Combine with the activity_labels.txt to get the descritive activity name for each observation
+6. Combine with the activity_labels.txt to get the descritive activity name for each observation
 
-8. Give each variable name a more descriptive name.
+7. Give each variable name a more descriptive name.
 
-9. Summarize the data to get the average for each measurement for each activity and each subject.
+8. Summarize the data to get the average for each measurement for each activity and each subject.
 
-10. Save the data as a text file output.txt. The
-
+9. Save the data as a text file output.txt. The
 
 
 ### CODE BOOK
 
     
 * Subject
-    Volunteer who performed the activty
-    1 .. 30, each number represents one volunteer
+
+Volunteer who performed the activty
+1 .. 30, each number represents one volunteer
     
 * Activity    
-    Activty performed by the volunteer. 
-    6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+Activty performed by the volunteer. 
+6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
     
 * TimeBodyAccMean-X
-    Mean value of the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals) of a particular subject and a particular activity
+
+Mean value of the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals) of a particular subject and a particular activity
     
 * TimeBodyAccMean-Y
-    Mean value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals) of a particular subject and a particular activity
+
+Mean value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals) of a particular subject and a particular activity
         
 * TimeBodyAccMean-Z         
     Mean value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals) of a particular subject and a particular activity
