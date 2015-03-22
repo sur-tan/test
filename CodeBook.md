@@ -46,7 +46,7 @@ The tidy data are transformed from the raw data through the following process:
 9. Save the data as a text file. The file is saved as 'output.txt' in the same folder as the analysis script.
 
 
-### CODE BOOK
+### CODEBOOK
    
 * Subject       
   Volunteer who performed the activty.       
@@ -59,91 +59,91 @@ The tidy data are transformed from the raw data through the following process:
   6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
     
 * TimeBodyAccMean-X       
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).      
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from an accelerometer for X direction (one of the 3 axial signals).      
   
   Numeric values range from between -1 to 1.
   
 * TimeBodyAccMean-Y       
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
   
 * TimeBodyAccMean-Z      
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
      
 * TimeBodyAccStdDev-X      
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from an accelerometer for X direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
      
 * TimeBodyAccStdDev-Y       
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
      
 * TimeBodyAccStdDev-Z       
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1 in 14 decimal values.
      
 * TimeGravityAccMean-X       
-  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from an accelerometer for X direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
  
 * TimeGravityAccMean-Y       
-  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
     
 * TimeGravityAccMean-Z  
-  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
    
 * TimeGravityAccStdDev-X  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from an accelerometer for X direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
  
 * TimeGravityAccStdDev-Y  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
    
 * TimeGravityAccStdDev-Z  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
  
 * TimeBodyAccJerkMean-X     
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from an accelerometer for X direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
      
 * TimeBodyAccJerkMean-Y     
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
  
 * TimeBodyAccJerkMean-Z     
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
   
 * TimeBodyAccJerkStdDev-X     
-  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from an accelerometer for X direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
   
 * TimeBodyAccJerkStdDev-Y  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
   
 * TimeBodyAccJerkStdDev-Z    
-  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).     
   
   Numeric values range from between -1 to 1.
   
@@ -258,92 +258,92 @@ The tidy data are transformed from the raw data through the following process:
   Numeric values range from between -1 to 1.
     
 * FftBodyAccMean-X
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from an accelerometer for X direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
  
 * FftBodyAccMean-Y
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyAccMean-Z   
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyAccStdDev-X     
-  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from an accelerometer for X direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
  
 * FftBodyAccStdDev-Y    
-  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyAccStdDev-Z 
-  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyAccJerkMean-X    
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the jerk signal obtained from the body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the jerk signal obtained from the body acceleration signals from an accelerometer for X direction (one of the 3 axial signals).
 
   Numeric values range from between -1 to 1.
  
 * FftBodyAccJerkMean-Y   
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the jerk signal obtained from the body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the jerk signal obtained from the body acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).
 
   Numeric values range from between -1 to 1.
  
 * FftBodyAccJerkMean-Z    
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the jerk signal obtained from the body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the jerk signal obtained from the body acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyAccJerkStdDev-X     
-  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the the jerk signal obtained from body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the the jerk signal obtained from body acceleration signals from an accelerometer for X direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyAccJerkStdDev-Y   
-  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the the jerk signal obtained from body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the the jerk signal obtained from body acceleration signals from an accelerometer for Y direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyAccJerkStdDev-Z   
-  Standard deviation value of the Fourier Transform (FFT) applied on the the jerk signal obtained from body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+  Standard deviation value of the Fourier Transform (FFT) applied on the the jerk signal obtained from body acceleration signals from an accelerometer for Z direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyGyroMean-X   
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from gyroscope for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from a gyroscope for X direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyGyroMean-Y 
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from gyroscope for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyGyroMean-Z  
-  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from gyroscope for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
 
 * FftBodyGyroStdDev-X   
-  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from gyroscope for X direction (one of the 3 axial signals) of a particular subject and a particular activity.
+  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from a gyroscope for X direction (one of the 3 axial signals) of a particular subject and a particular activity.
   
   Numeric values range from between -1 to 1.
   
 * FftBodyGyroStdDev-Y   
-  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from gyroscope for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
 * FftBodyGyroStdDev-Z  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from gyroscope for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the Fourier Transform (FFT) applied on the body acceleration signals from a gyroscope for Z direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
   
@@ -363,7 +363,7 @@ The tidy data are transformed from the raw data through the following process:
   Numeric values range from between -1 to 1.
 
 * FftBodyBodyAccJerkMagStdDev 
-  The average of a particular subject and a particular activity performed on the standard deviation value of the magnitutude (calculated using Euclidean norm) calculated from the Fourier Transform (FFT) applied on the the jerk signal obtained from the body acceleration signals from accelerometer.
+  The average of a particular subject and a particular activity performed on the standard deviation value of the magnitutude (calculated using Euclidean norm) calculated from the Fourier Transform (FFT) applied on the the jerk signal obtained from the body acceleration signals from an accelerometer.
   
   Numeric values range from between -1 to 1.
 
@@ -379,6 +379,7 @@ The tidy data are transformed from the raw data through the following process:
  
 * FftBodyBodyGyroJerkMagMean      
   The average of a particular subject and a particular activity performed on the mean value of the magnitutude (calculated using Euclidean norm) calculated from the Fourier Transform (FFT) applied on the the jerk signal obtained from the body acceleration signals from a gyroscope.
+  
   Numeric values range from between -1 to 1.
 
 * FftBodyBodyGyroJerkMagStdDev    

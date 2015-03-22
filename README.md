@@ -1,18 +1,8 @@
----
-title: "README.md"
-author: "Surianti Adrian Tan"
-date:   "Saturday, March 21, 2015"
-output: html_document
----
+## README 
 
-## README
+There is only one script to the run the analysis. The sript name is run_analysis.R. The script read the dataset files from the subfolder 'UCI HAR Dataset' folder. The datasets are downloaded and unzipped from from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
-The run_analysis.R will clean up the and 
+The script will produce the ouput text file output.txt in the current directory.
 
-This repo explains how all of the scripts work and how they are connected. 
 
-UCI HAR Dataset
-
-## The data is downloaded and unzipped in the folder "UCI HAR Dataset".
-## This script will read the data from the subfolder "UCI HAR Dataset" and proudce the
-## text output file output.txt
+Refer to the CodeBOok for more details.
