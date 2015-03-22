@@ -1,6 +1,6 @@
 ## CODEBOOK ON THE ANALYSIS OF THE DATA COLLECTED FOR THE ACTIVITIES PERFORMED WEARING A SMARTPHONE
 
-The purpose of this analysis is to extract mean and standard deviation of each measurement and produces an average of each measurement for each activity and each subject. The analysis is done on the experiment data for the activities performed wearing a smartphone (Samsung Galaxy S II).
+The purpose of this analysis is to extract mean and standard deviation of each measurement and to produce an average of each measurement for each activity and each subject. The analysis is done on the experiment data for the activities performed wearing a smartphone (Samsung Galaxy S II).
 
 
 ### RAW DATA 
@@ -10,26 +10,26 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 This data came from the experiments carried out by 30 volunteers (subjects), performing 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. For more details on how the data are collected, refer to the readme file in dataset.
 
 The following raw data are being used to perform the analysis:
-* \UCI HAR Dataset\test\X_test.txt : This is the measurements of the test dataset.
-* \UCI HAR Dataset\test\Y_test.txt : This is the activities of the test dataset.
-* \UCI HAR Dataset\test\subject_test.txt : This is the subject that performs the activities of the test dataset.
-* \UCI HAR Dataset\train\**X_train.txt : This is the measurement of the training datasets.
-* \UCI HAR Dataset\train\**Y_train.txt : This is the activities of the training dataset.
-* \UCI HAR Dataset\train\**X_test.txt : This is the subject that performs the activities of the training dataset.
-* \UCI HAR Dataset\activity_labels.txt : This is the description of each activity code.
-* \UCI HAR Dataset\features.txt : This is the description of each data in the X_test.txt and X_train.txt.
+* \UCI HAR Dataset\test\X_test.txt : the measurements of the test dataset.
+* \UCI HAR Dataset\test\Y_test.txt : the activities of the test dataset.
+* \UCI HAR Dataset\test\subject_test.txt : the subject that performs the activities of the test dataset.
+* \UCI HAR Dataset\train\**X_train.txt : the measurement of the training datasets.
+* \UCI HAR Dataset\train\**Y_train.txt : the activities of the training dataset.
+* \UCI HAR Dataset\train\**X_test.txt : the subject that performs the activities of the training dataset.
+* \UCI HAR Dataset\activity_labels.txt : the description of each activity code.
+* \UCI HAR Dataset\features.txt : the description of each data in the X_test.txt and X_train.txt.
 
 ### TIDY DATA
-The tidy data is produced through the run_analysis.R script. Refer to the CodeBook section below on the explanation of the variables of the tidy data. 
+The tidy data is produced through the 'run_analysis.R' script and stored in the 'output.txt' file. Refer to the CodeBook section below on the explanation of the variables of the tidy data. 
 
 
 ### TRANSFORMATION
 
-The tidy data are transformed through the following process:
+The tidy data are transformed from the raw data through the following process:
 
-1. Read the datasets as specified in the Raw Data section. Take note that the datasets are downloaded and unzipped in the subfolder 'UCI HAR Dataset' where the analysis script is stored. The directory stucture of the datasets are kept as the original after unzipped. 
+1. Read the datasets as specified in the Raw Data section above. Take note that the datasets are downloaded and unzipped in the subfolder 'UCI HAR Dataset' where the analysis script is stored. The directory stucture of the datasets are kept as the original after unzipped. 
       
-2. Merge the measurement of the training and the test datasets, the activities of both datasets and the subjects of both datasets.
+2. Merge the measurements of the training and the test datasets, the activities of both datasets and the subjects of both datasets.
 
 3. Assign the variable names for the each measurement extracted from the 'features.txt' file.
 
@@ -47,129 +47,128 @@ The tidy data are transformed through the following process:
 
 
 ### CODE BOOK
-
-    
-* Subject 
-  Volunteer who performed the activty
+   
+* Subject       
+  Volunteer who performed the activty.       
   1 to 30, each number represents one volunteer.
     
 * Activity       
-  Activty performed by the volunteer. 
+  Activty performed by the volunteer.       
   6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
     
-* TimeBodyAccMean-X 
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals). 
+* TimeBodyAccMean-X       
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).      
   Numeric values range from between -1 to 1.
   
-* TimeBodyAccMean-Y 
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+* TimeBodyAccMean-Y       
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
   
 * TimeBodyAccMean-Z      
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
      
 * TimeBodyAccStdDev-X      
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
      
-* TimeBodyAccStdDev-Y  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+* TimeBodyAccStdDev-Y       
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
      
-* TimeBodyAccStdDev-Z 
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+* TimeBodyAccStdDev-Z       
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1 in 14 decimal values.
      
-* TimeGravityAccMean-X  
-  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+* TimeGravityAccMean-X       
+  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
  
-* TimeGravityAccMean-Y  
-  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+* TimeGravityAccMean-Y       
+  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
     
 * TimeGravityAccMean-Z  
-  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the time domain gravity acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
    
 * TimeGravityAccStdDev-X  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
  
 * TimeGravityAccStdDev-Y  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
    
 * TimeGravityAccStdDev-Z  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain gravity acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
  
 * TimeBodyAccJerkMean-X     
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
      
-* TimeBodyAccJerkMean-Y 
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+* TimeBodyAccJerkMean-Y     
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
  
-* TimeBodyAccJerkMean-Z 
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+* TimeBodyAccJerkMean-Z     
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
   
-* TimeBodyAccJerkStdDev-X 
-  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+* TimeBodyAccJerkStdDev-X     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for X direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
   
 * TimeBodyAccJerkStdDev-Y  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Y direction (one of the 3 axial signals).     
   
 * TimeBodyAccJerkStdDev-Z    
-  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from accelerometer for Z direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
   
 * TimeBodyGyroMean-X   
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from a gyroscope for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from a gyroscope for X direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
   
 * TimeBodyGyroMean-Y   
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
   
 * TimeBodyGyroMean-Z   
-  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from a gyroscope for Z direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the time domain body acceleration signals from a gyroscope for Z direction (one of the 3 axial signals).          
   Numeric values range from between -1 to 1.
   
-* TimeBodyGyroStdDev-X  
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from a gyroscope for X direction (one of the 3 axial signals).
+* TimeBodyGyroStdDev-X       
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from a gyroscope for X direction (one of the 3 axial signals).          
   Numeric values range from between -1 to 1.
    
-* TimeBodyGyroStdDev-Y
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).
+* TimeBodyGyroStdDev-Y     
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).          
   Numeric values range from between -1 to 1.
   
-* TimeBodyGyroStdDev-Z 
-  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from a gyroscope for Z direction (one of the 3 axial signals).
+* TimeBodyGyroStdDev-Z      
+  The average of a particular subject and a particular activity performed on the standard deviation value of the time domain body acceleration signals from a gyroscope for Z direction (one of the 3 axial signals).          
   Numeric values range from between -1 to 1.
   
-* TimeBodyGyroJerkMean-X  
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for X direction (one of the 3 axial signals).
-  Numeric values range from between -1 to 1.
+* TimeBodyGyroJerkMean-X       
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for X direction (one of the 3 axial signals).     
+  Numeric values range from between -1 to 1.     
   
-* TimeBodyGyroJerkMean-Y 
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).
-  Numeric values range from between -1 to 1.
+* TimeBodyGyroJerkMean-Y      
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).     
+  Numeric values range from between -1 to 1.     
   
-* TimeBodyGyroJerkMean-Z  
-  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for Z direction (one of the 3 axial signals).
-  Numeric values range from between -1 to 1.
+* TimeBodyGyroJerkMean-Z       
+  The average of a particular subject and a particular activity performed on the mean value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for Z direction (one of the 3 axial signals).          
+  Numeric values range from between -1 to 1.     
     
-* TimeBodyGyroJerkStdDev-X  
+* TimeBodyGyroJerkStdDev-X       
   The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for X direction (one of the 3 axial signals).
-  Numeric values range from between -1 to 1.
+  Numeric values range from between -1 to 1.     
     
-* TimeBodyGyroJerkStdDev-Y 
-  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).
+* TimeBodyGyroJerkStdDev-Y      
+  The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for Y direction (one of the 3 axial signals).     
   Numeric values range from between -1 to 1.
     
 * TimeBodyGyroJerkStdDev-Z 
