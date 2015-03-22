@@ -202,11 +202,12 @@ The tidy data are transformed from the raw data through the following process:
   
   Numeric values range from between -1 to 1.
     
-* TimeBodyGyroJerkStdDev-Z 
+* TimeBodyGyroJerkStdDev-Z       
   The average of a particular subject and a particular activity performed on the standard deviation value of the jerk signal obtained from the time domain body acceleration signals from a gyroscope for Z direction (one of the 3 axial signals).
+  
   Numeric values range from between -1 to 1.
     
-* TimeBodyAccMagMean
+* TimeBodyAccMagMean      
   The average of a particular subject and a particular activity performed on the mean value of the magnitutude (calculated using Euclidean norm) of the time domain body acceleration signals from an accelerometer.
   
   Numeric values range from between -1 to 1.
@@ -257,7 +258,7 @@ The tidy data are transformed from the raw data through the following process:
   Numeric values range from between -1 to 1.
     
 * FftBodyAccMean-X
-  The average of a particular subject and a particular activity performed on themean value of the Fourier Transform (FFT) applied on the body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
+  The average of a particular subject and a particular activity performed on the mean value of the Fourier Transform (FFT) applied on the body acceleration signals from accelerometer for X direction (one of the 3 axial signals).
   
   Numeric values range from between -1 to 1.
  
@@ -376,11 +377,11 @@ The tidy data are transformed from the raw data through the following process:
   
   Numeric values range from between -1 to 1.
  
-* FftBodyBodyGyroJerkMagMean  
+* FftBodyBodyGyroJerkMagMean      
   The average of a particular subject and a particular activity performed on the mean value of the magnitutude (calculated using Euclidean norm) calculated from the Fourier Transform (FFT) applied on the the jerk signal obtained from the body acceleration signals from a gyroscope.
   Numeric values range from between -1 to 1.
 
-* FftBodyBodyGyroJerkMagStdDev
+* FftBodyBodyGyroJerkMagStdDev    
   The average of a particular subject and a particular activity performed on the standard deviation value of the magnitutude (calculated using Euclidean norm) calculated from the Fourier Transform (FFT) applied on the the jerk signal obtained from the body acceleration signals from a gyroscope.
   
   Numeric values range from between -1 to 1.
